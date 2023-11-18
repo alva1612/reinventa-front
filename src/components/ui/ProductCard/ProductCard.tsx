@@ -13,11 +13,13 @@ export const ProductCard = ({
   productName,
 }: ProductCardProps) => {
   return (
-    <Card className="p-4">
+    <Card className="p-4 w-72">
       <h4>{productName}</h4>
-      <div>
-        <span>S/. {amount}</span>
-        <span>Disponible</span>
+      <div className="flex flex-col">
+        <span className="text-cyan-500 font-extrabold text-3xl text-center">
+          S/. {amount}
+        </span>
+        <span className="text-gray-400 text-center text-xs">Disponible</span>
       </div>
       <div className="flex w-full justify-between">
         <p>{productId}</p> <Icon type="share" />

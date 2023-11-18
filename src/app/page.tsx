@@ -10,7 +10,7 @@ export default function Home() {
         <h2>Te damos la bienvenida a Banbif app</h2>
       </div>
       <ScrollArea className="w-full">
-        <div className="flex p-4">
+        <div className="flex p-4 gap-2">
           <ProductCard
             amount="10,000"
             productId="Cta: 123-123-123-123"
