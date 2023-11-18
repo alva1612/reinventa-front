@@ -21,9 +21,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={inter.className}>
         <Navbar />
-        <div className={clsx("flex flex-col min-h-screen mx-8")}>
-          {children}
-        </div>
+        <div className={clsx("flex flex-col min-h-screen")}>{children}</div>
         <BottomNavigation />
       </body>
     </html>
