@@ -6,7 +6,7 @@ const Navbar = () => {
    const { getUser } = getKindeServerSession()
    const user = getUser()
    return (<>
-      <div className='flex h-14 items-center justify-between border-b border-zinc-200'>
+      <div className='flex h-14 items-center justify-between border-b border-zinc-200 '>
          <Link
             href='/'
             className='flex z-40 font-semibold'>
