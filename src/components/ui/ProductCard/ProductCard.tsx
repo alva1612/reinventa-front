@@ -21,8 +21,11 @@ export const ProductCard = ({
         </span>
         <span className="text-gray-400 text-center text-xs">Disponible</span>
       </div>
-      <div className="flex w-full justify-between">
-        <p>{productId}</p> <Icon type="share" />
+      <div className="flex w-full justify-between mt-4">
+        <p className="text-gray-400 text-sm">{productId}</p>{" "}
+        <div className=" flex align-middle justify-center">
+          <Icon type="share" />
+        </div>
       </div>
     </Card>
   );

@@ -1,15 +1,12 @@
 import { ProductCard } from "@/components/ui/ProductCard";
 import ShortcutsButton from "@/components/ShortcutsButton";
-import { Card } from "@/components/ui/card";
 import { ScrollArea, ScrollBar } from "@/components/ui/scroll-area";
+import { Salute } from "@/components/ui/Salute/Salute";
 
 export default function Home() {
   return (
     <>
-      <div className="pt-4 mx-4">
-        <h1 className="text-lg text-cyan-500 font-bold">HOLA Jaime</h1>
-        <h2>Te damos la bienvenida a Banbif app</h2>
-      </div>
+      <Salute className="mt-4" message="Te damos la bienvenida a BanBif App" />
       <ScrollArea className="w-full">
         <div className="flex p-4 gap-2">
           <ProductCard
@@ -37,7 +34,7 @@ export default function Home() {
       </ScrollArea>
       <h1>Hola Jaime</h1>
       <h2>Te damos la bienvenida a Banbif app</h2>
-        <ShortcutsButton/>  
+      <ShortcutsButton />
     </>
   );
 }
