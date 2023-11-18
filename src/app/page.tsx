@@ -1,5 +1,11 @@
 import { Card } from "@/components/ui/card";
 
 export default function Home() {
-  return <Card></Card>;
+  return (
+    <>
+      <h1>Hola Jaime</h1>
+      <h2>Te damos la bienvenida a Banbif app</h2>
+      <Card></Card>
+    </>
+  );
 }
